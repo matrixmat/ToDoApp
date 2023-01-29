@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: rgb(179, 179, 179);
+  color: rgb(255, 255, 255);
+}
+
+li {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+input:hover {
+  padding: 0px 15px;
+  transition: 1s;
+}
+
+#ad {
+  background-color: rgb(251, 251, 251);
+  font-size: large;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+#ad:hover {
+  padding: 1px 1px;
+  background-color: rgb(41, 244, 82);
+}
+
+#adb {
+  background-color: rgb(229, 60, 234);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+
+#adb:hover {
+  background-color: rgb(51, 176, 234);
+  color: rgb(0, 0, 0);
+  padding: 7px 18px;
+  transition: 0.6s;
+}
+
+#adb2 {
+  background-color: rgb(184, 206, 185);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 5px 0px;
+}
+
+#adb2:hover {
+  background-color: rgb(161, 172, 162);
+  box-shadow: 2px 2px 30px rgb(255, 136, 231);
+  font-size: large;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+#sup {
+  background-color: rgb(245, 74, 74);
+  font-size: large;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-right: 5px;
+}
+
+#don {
+  background-color: rgb(12, 169, 17);
+  font-size: large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+#diva {
+  width: 50%;
+  padding: 50px 50px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, rgb(4, 166, 188), violet);
+}
